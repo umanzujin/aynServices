@@ -139,12 +139,14 @@ div p {
     
 }
 
-.cards .p {
+.cards  p {
     position: absolute;
-    display: flex;
+    display: block;
     flex-direction: column;
-    justify-content: center;
-       
+    justify-content: center;     
+    font-family: inherit;
+    font-size: .8rem;
+    margin: 5px 5px;
 }
 
 footer {
