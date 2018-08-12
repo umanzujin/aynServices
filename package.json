@@ -1,0 +1,28 @@
+{
+  "name": "aynservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss aynServices/main.css -w",
+    "compile:sass": "node-sass sass/main.scss aynServices/main.css",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "devserver": "live-server"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peteyp213/aynServices.git"
+  },
+  "author": "Jonathan Umanzor & Peter Phol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peteyp213/aynServices/issues"
+  },
+  "homepage": "https://github.com/peteyp213/aynServices#readme",
+  "dependencies": {
+    "node": "^10.8.0",
+    "node-sass": "^4.9.3",
+    "sass": "^1.10.4"
+  }
+}
